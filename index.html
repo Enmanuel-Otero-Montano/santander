@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Interfaz Bancaria</title>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+        <div class="hamburguesa-container">
+            <img class="header-icon" src="assets/menu_hamburguesa.jpg" alt="">
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="assets/logo.jpg" alt="">
+        </div>
+        <div class="header-icon-derecha-container">
+            <img class="header-icon-derecha" src="assets/header_icon_derecha.jpg" alt="">
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="btn-inicio-red-container btn-header-bottom-container">
+            <img class="btn-inicio-red btn-header-bottom" src="assets/btn-inicio.jpg" alt="">
+        </div>
+        <div class="btn-productos-black-container btn-header-bottom-container">
+            <img class="btn-productos-black btn-header-bottom" src="assets/btn-productos.jpg" alt="">
+        </div>
+        <div class="dropdown-container btn-header-bottom-container">
+            <img class="dropdown btn-header-bottom" src="assets/btn-dropdown.jpg" alt="">
+        </div>
+    </nav>
+  </header>
+
+  <!-- Carrusel de imágenes -->
+  <div class="carousel">
+    <div class="slides">
+      <img src="https://info.santander.com.uy:443/api/image/trail-view/7ee5c55b0dfe6475bc087d1c4f20f603.jpg?&width=1500&height=555" alt="Imagen 1">
+      <img src="https://info.santander.com.uy:443/api/image/trail-view/c6916f48f79b93ba3b74aa6a6644f2ba.jpg?&width=1500&height=555" alt="Imagen 2">
+      <img src="https://info.santander.com.uy:443/api/image/trail-view/98c0a25d9344cf9a7a53d68205b22351.png?&width=1500&height=555" alt="Imagen 3">
+      <img src="https://info.santander.com.uy:443/api/image/trail-view/e0fb3dd7ecc7dacebae5c73d0c224c53.jpg?&width=1500&height=555" alt="Imagen 4">
+    </div>
+    <div class="carousel-controls">
+      <button class="prev-slide">&#10094;</button>
+      <button class="next-slide">&#10095;</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="login-cliente-info-container">
+        <div class="section">
+          <div class="current-date-container">
+            <p id="current-date"></p>
+          </div>
+          <h2>Bienvenido(a), Enmanuel Otero Montano</h2>
+          <p class="top-info" id="login-info">Login actual</p>
+          <p id="login-info-date" class="sub-info"></p>
+          <p class="top-info">Última fecha de acceso:</p>
+          <p id="last-access" class="sub-info"></p>
+          <p class="top-info">Último cambio de contraseña:</p>
+          <p class="sub-info">21 de nov. de 2022 20:11</p>
+        </div>
+        
+        <div class="section cliente-container">
+          <h3 class="top-info cliente-label">Cliente</h3>
+          <p class="cliente-name">Otero Montano Enmanuel</p>
+        </div>
+        
+        <div class="section-contactanos">
+          <h3 class="label-contactanos">Contactanos</h3>
+          <div class="iconos-redes-sociales-container">
+            <img class="iconos-redes-sociales" src="assets/iconos-redes-sociales.jpg" alt="">
+        </div>
+        </div>
+    </div>
+    
+    <div class="section-money">
+      <a href="movimientos.html?cuenta=uyu" class="account">
+        <div class="puerquito-label-container">
+          <img src="assets/puerquito.jpg" class="puerquito" alt="">
+          <span class="puerquito-label">Caja de ahorros</span>
+        </div>
+        <div class="balance-container">
+          <div class="amount">
+            <span class="value">37,16</span>
+            <span class="currency">UYU</span>
+          </div>
+          <div class="label-saldo-disponible">Saldo disponible</div>
+        </div>
+      </a>
+      <a href="./pages/movimientos-usd.html" class="account">
+        <div class="puerquito-label-container">
+          <img src="assets/puerquito.jpg" class="puerquito" alt="">
+          <span class="puerquito-label">Caja de ahorros</span>
+        </div>
+        <div class="balance-container">
+          <div class="amount">
+            <span class="value">595,63</span>
+            <span class="currency">USD</span>
+          </div>
+          <div class="label-saldo-disponible">Saldo disponible</div>
+        </div>
+      </a>
+      <a href="movimientos.html?cuenta=usd" class="account">
+        <div class="puerquito-label-container">
+          <img src="assets/tarjeta_de_credito.png" class="puerquito" alt="">
+          <span class="puerquito-label">Tarjeta de crédito</span>
+        </div>
+        <div class="balance-container">
+          <div class="amount">
+            <span class="value">2.292,67</span>
+            <span class="currency">UYU</span>
+          </div>
+          <div class="label-saldo-disponible">Crédito disponible</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Santander</p>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>

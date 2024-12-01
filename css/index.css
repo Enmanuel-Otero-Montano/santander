@@ -1,0 +1,481 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .nav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+  }
+
+  .btn-header-bottom-container,
+  .btn-header-bottom-container,
+  .btn-header-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-inicio-red-container {
+    width: 44%;
+  }
+
+  .btn-inicio-black-container {
+    width: 44%;
+    background-color: rgb(51, 51, 51);
+  }
+
+  .btn-productos-black-container {
+    width: 44%;
+    background-color: rgb(51, 51, 51);
+  }
+
+  .dropdown-container {
+    width: 12%;
+    background-color: rgb(51, 51, 51);
+    border-left: solid 1px hsla(0, 0%, 50%, 0.5);
+  }
+
+  .btn-inicio-red {
+    width: 55%;
+  }
+
+  .btn-inicio-black {
+    width: 78%;
+  }
+
+  .btn-productos-black {
+    width: 75%;
+  }
+
+  .dropdown {
+    width: 50%;
+  }
+
+  .header-icon {
+    width: 25px;
+  }
+
+  .hamburguesa-container {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 2px;
+  }
+
+  .logo-container {
+    width: 115px;
+    margin-top: 7px;
+    padding-bottom: 6px;
+  }
+
+  .header-top {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px lightgrey;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .header-icon-derecha-container {
+    width: 105px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-top: 4px;
+  }
+
+  .header-icon-derecha {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 7px;
+  }
+
+  .current-date-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 26px;
+    padding: 8px 0 10px;
+  }
+
+  .current-date-container > p {
+    margin: 0;
+    font-size: 13px;
+    color: rgb(209, 209, 209);
+  }
+  
+  .login-cliente-info-container{
+    padding: 0 15px;
+    background-color: rgb(51, 51, 51);
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .cliente-container {
+    padding-top: 8px;
+    border-top: solid 1px hsla(0, 0%, 50%, 0.5);
+    border-bottom: solid 1px hsla(0, 0%, 50%, 0.5);
+  }
+
+  .cliente-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+  }
+  .section p {
+    margin: 5px 0;
+  }
+
+  .top-info {
+    font-size: 13px;
+    color: rgb(138, 138, 138);
+  }
+
+  .sub-info {
+    font-size: 13px;
+    color: rgb(209, 209, 209);
+  }
+
+  .section-contactanos {
+    padding-bottom: 5px;
+  }
+
+  .label-contactanos,
+  .cliente-name {
+    font-size: 16px;
+    color: rgb(209, 209, 209);
+  }
+
+  .puerquito-label-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .puerquito {
+    display: block;
+    width: 22px;
+    margin-right: 5px;
+  }
+
+  .puerquito-label {
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+  }
+
+  .account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px rgb(225, 225, 225);
+  }
+  .account:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Saldo-Moneda */
+  .balance-container {
+    margin-left: auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  .amount {
+    font-size: 2rem; /* Tamaño grande para el monto */
+    display: flex;
+    align-items: baseline; /* Alinea la moneda con el número */
+    gap: 0.2rem; /* Espacio entre el número y la moneda */
+  }
+  
+  .value {
+    font-size: 30px; /* Tamaño más grande para el valor */
+    color: red;
+  }
+  
+  .currency {
+    font-size: 14px; /* Tamaño más pequeño para la moneda */
+    color: #333333;
+    align-self: flex-start;
+    padding-top: 2px;
+  }
+  
+  .label-saldo-disponible {
+    font-size: 11px; /* Tamaño más pequeño para la etiqueta */
+    color: #333333;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Carrusel */
+  .carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slides img.active {
+    display: block;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carousel-controls button {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  .iconos-redes-sociales-container {
+    width: 100%;
+  }
+
+  .iconos-redes-sociales {
+    width: 98%;
+  }
+
+
+  /* Estilos para la página de movimientos */
+  .custom-header {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    padding: 8px 10px;
+  }
+
+  .icon-arrow-container {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px hsla(0, 0%, 50%, 0.5);
+  }
+
+  .name-account-puerquito-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .puerquito-account {
+    padding-left: 10px;
+  }
+
+  .name-account {
+    font-size: 18px;
+  }
+
+  .numero-account-container {
+    padding-left: 8px;
+    border-left: solid 1px hsla(0, 0%, 50%, 0.5);
+  }
+
+  .numero-account {
+    font-size: 13px;
+    color: rgb(130, 130, 130);
+  }
+
+  .three-dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23px;
+    width: 15px;
+    padding-left: 15px;
+    border-left: solid 1px hsla(0, 0%, 50%, 0.5);
+}
+
+.three-dots span {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    display: block;
+}
+
+/*----------*/
+.tabs-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+  padding: 0 15px;
+  border-bottom: solid 1px hsla(0, 0%, 50%, 0.5);
+}
+ 
+.movimientos-container,
+.saldos-container {
+  width: 47%;
+  text-align: center;
+}
+
+.movimientos-container {
+  border-bottom: solid 2px red;
+}
+
+.movimientos-text {
+  color: red;
+  font-size: 15px;
+}
+
+.saldos-text {
+  color: rgb(102, 102, 102);
+  font-size: 15px;
+}
+
+.arrow-container {
+  width: 6%;
+  text-align: center;
+}
+
+/* Filtros ETC */
+
+.filtros-busqueda-descarga-container {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background-color: white;
+  padding: 0 15px;
+}
+
+.filtros-container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.mes {
+  font-size: 14px;
+  padding: 0 8px;
+  color: red;
+}
+
+.busqueda-container {
+  width: 15%;
+  border-right: solid 1px hsla(0, 0%, 50%, 0.5);
+}
+
+.descarga-container {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.creditos-debitos-container {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 13px;
+  color: red;
+  background-color: white;
+  border-bottom: solid 2px red;
+}
+
+.creditos-debitos-container > p {
+  padding-right: 8px;
+}
+
+/* Estilos de los movimientos */
+
+.movimientos {
+  padding: 7px 10px 8px;
+  background-color: white;
+  border-bottom: solid 1px hsla(0, 0%, 50%, 0.5);
+}
+
+.fecha-arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fecha-arrow-container > p,
+.referencia {
+  margin: 2px 0 5px;
+  font-size: 12.5px;
+  color: rgb(102, 102, 102);
+}
+
+.info-compra-container {
+  width: 96%;
+}
+
+.info-compra {
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+
+.moneda-monto-container {
+  width: 25%;
+  margin-left: auto;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  text-align: right;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .account {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
